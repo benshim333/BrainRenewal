@@ -1,0 +1,10 @@
+*.mp3
+*.mp4
+**/*.mp3
+**/*.mp4
+video_files/*.mp4
+audio_files/*.mp3
+.git
+__pycache__
+*.pyc
+client_secret.json
