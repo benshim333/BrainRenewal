@@ -45,7 +45,7 @@ if __name__ == "__main__":
 
     engine = pyttsx3.init() # Initialize text-to-speech engine
     engine.setProperty("rate", 150)
-    passages = csv_to_bible_passages("csv_files/Genesis.csv")
+    passages = csv_to_bible_passages("csv_files/Exodus.csv")
     print(f"{len(passages)} passages found")
     cumulative_length = 0 # Start time for clip extraction
 
